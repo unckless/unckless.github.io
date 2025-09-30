@@ -12,11 +12,11 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Unckless Lab Website"
 title_separator          : "-"
 name                     : &name "Unckless Lab"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Evolutionary genetics and genomics of conflict"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://unckless.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "unckless/unckless.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,11 +26,11 @@ author:
   avatar           : "uncklesslab_S25.jpeg"
   name             : "Unckless Lab"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Unckless Lab at KU"
+  employer         : "University of Kansas"
+  department       :  "Molecular Biosciences"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "unckless@ku.edu" 
 
   # Academic websites
   academia         : # URL
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/unckless"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -61,7 +61,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "https://www.instagram.com/uncklesslab/" # Username
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
@@ -81,12 +81,9 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
     title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -135,7 +132,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : # &twitter
 facebook:
   username               :
   app_id                 :
@@ -245,17 +242,17 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _research
   - scope:
       path: ""
-      type: pages
+      type: research
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _people
   - scope:
       path: ""
-      type: teaching
+      type: people
     values:
       layout: single
       author_profile: true
@@ -270,24 +267,31 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _opportunities
   - scope:
       path: ""
-      type: portfolio
+      type: opportunities
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _resources
   - scope:
       path: ""
-      type: talks
+      type: resources
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
-
+  # _covers
+  - scope:
+      path: ""
+      type: covers
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
