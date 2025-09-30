@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Unckless Lab",
+    "email": "unckless@ku.edu",
     "phone": "",
     "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "summary": "Evolutionary genetics and genomics at the University of Kansas",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
+      "address": "4055 Haworth Hall",
+      "postalCode": "66045",
+      "city": "Lawrence, KS",
       "countryCode": "US",
       "region": ""
     },
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=bbIXpk0AAAAJ&hl=en"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0001-8586-7137"
       },
       {
         "network": "GitHub",
         "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/unckless/"
       }
     ]
   },
